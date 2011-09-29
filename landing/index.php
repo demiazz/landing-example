@@ -109,7 +109,7 @@
           <table>
             <tr>
               <td id='insurance-company-logo' rowspan='2'>
-                <img src='<?php echo getLogo($result['assurer']['id']); ?>' />
+                <img src='<?php echo getLogo($result[0]['assurer']['id']); ?>' />
               </td>
               <th>
                 Стоимость
