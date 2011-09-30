@@ -112,7 +112,7 @@
                 Стоимость
               </th>
               <td>
-                <?php echo $calculation['car']['cost']['value'].' '.$calculation['car']['cost']['currency']; ?>
+                <?php printf('%01.2f %s', $calculation['car']['cost']['value'], $calculation['car']['cost']['currency']); ?>
               </td>
             </tr>
             <?php 
