@@ -115,7 +115,7 @@
                 Стоимость
               </th>
               <td>
-                1 400 000 рублей
+                <?php echo $calculation['car']['cost']['value'].' '.$calculation['car']['cost']['currency']; ?>
               </td>
             </tr>
             <?php 
