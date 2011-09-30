@@ -294,7 +294,6 @@ input:invalid, textarea:invalid {
 
 #page-doc-container {
   width: 100%;
-  display: none;
 }
 #page-doc-container #page-doc {
   display: none;

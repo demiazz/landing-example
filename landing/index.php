@@ -56,11 +56,8 @@
   </head>
   <body>
     <div id='page-doc-container'>
-      <div class='container' id='page-doc'>
-        <p>Это документация</p>
-      </div>
       <div id='page-doc-tumbler'>
-        <p>Полный архив с примером доступен тут: <a href=""></a>.</p>
+        <p>Исходный код проекта доступен на GitHub: <a href="https://github.com/demiazz/landing-example">Исходный код</a> и <a href="https://github.com/demiazz/landing-example/zipball/master">Архив с исходным кодом</a>.</p>
       </div>
     </div>
     <div id='page-header-container'>
