@@ -10,10 +10,10 @@ class CascoAPI {
     /**
      * Индетификатор соединения
      */
-    public $username;
-    public $password;
+    protected $username;
+    protected $password;
     protected $ch;
-    public $headers = array();
+    protected $headers = array();
     
     /**
      * Инициализация curl, авторизация.
